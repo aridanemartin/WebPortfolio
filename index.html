@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aridane Martín - Desarrollador Web</title>
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+<body>
+    <header class="nav__header">
+        <!-- <div id="toggle-menu"></div> -->
+        <i class="header__toggle fas fa-bars fa-2x" id="toggle-menu" style="color: white;"></i>
+        <i class="nav__close fas fa-times fa-2x" id="nav-close" style="color: white;"></i>
+        <nav class="nav" id="nav">   
+            <div class="nav__content">
+                <!--i class="nav__close fas fa-times fa-2x" id="nav-close" style="color: white;"></i-->
+                <div class="nav__logo">
+                    <a href="#" class="nav__name">
+                        <h3>Aridane Martín</h3>
+                        <p>&lt;Web Developer/&gt;</p>
+                    </a>
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="./index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="./skills.html" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="nav__social">
+                    <a href="https://www.linkedin.com/in/aridane-mart%C3%ADn-falc%C3%B3n-064b60144/" target="_blank" class="nav__social-ico"><i class="fab fa-linkedin-in fa-2x"></i></a>   
+                    <a href="https://github.com/aridanemartin/" target="_blank" class="nav__social-ico"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="https://codepen.io/aridanemartin" target="_blank" class="nav__social-ico"><i class="fab fa-codepen fa-2x"></i></a>   
+                </div>
+            </div>      
+        </nav>
+    </header>
+
+    <div id="navcurve" style="overflow: hidden;">
+        <svg
+        preserveAspectRatio="none"
+        viewBox="0 0 1200 120"
+        xmlns="http://www.w3.org/2000/svg"
+        style="fill: rgb(76, 161, 175); width: 137%; height: 75px; transform: scaleX(-1);">
+        <path d="M321.39 56.44c58-10.79 114.16-30.13 172-41.86 82.39-16.72 168.19-17.73 250.45-.39C823.78 31 906.67 72 985.66 92.83c70.05 18.48 146.53 26.09 214.34 3V0H0v27.35a600.21 600.21 0 00321.39 29.09z" />
+        </svg>
+    </div>
+
+
+
+    <div class="contenedor">
+        <header>
+                <h1>Aridane Martín</h1>
+                <p>&lt;Web Developer/&gt;</p>
+        </header>
+        
+        <div id="bio">
+            <img id="foto" src="./assets/images/formacuadrado2.jpg" alt=""/>
+            <p id="biotext">Mi nombre es Aridane Martín, soy diseñador web establecido en Gran Canaria, España.<br><br>En la actualidad compagino el diseño y desarrollo de todo tipo de webs y aplicaciones con mi labor como docente. <br><br> Te invito a continuar revisando mi página, un poco más abajo encontrarás algunos de mis últimos trabajos.</p>
+
+        </div>
+        <!-- Bio Ends! -->
+
+        <div class="separador">
+            <div id="typewriterTitle"></div>
+            <h2>Proyectos realizados</h2>
+            <p>A continuación te muestro algunos de mis últimos trabajos</p>
+        </div>
+
+        <main>
+            <div class="cards js-scroll fade-in-bottom">
+                <div class="card" id="gatossinhogar">
+                    <div class="card-content">
+                        <h2 class="card-title">Gatos sin hogar</h2>
+                        <h3 class="card-subtitle"><a href="#">Protectora de animales</a></h3>
+                        <p class="card-body">Página destinada a la adopción de gatos pertenecientes a la colonia de la zona escaleritas/Schamann.<br><i id="faicon" class="fab fa-sass fa-2x"></i><i id="faicon" class="fab fa-react fa-2x"></i></p>
+                        <div class="button-container">
+                            <a href="https://www.emmsitges.cat/" target="_blank" class="cta">
+                                <span>Visita la web</span>
+                                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                    <path d="M1,5 L11,5"></path>
+                                    <polyline points="8 1 12 5 8 9"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="rosh">
+                    <div class="card-content">
+                        <h2 class="card-title">RP Nutrición</h2>
+                        <h3 class="card-subtitle"><a href="#">Dietista-Nutricionista</a></h3>
+                        <p class="card-body">Página de contacto e información de la dietista-nutricionista Roshni Peswani.<br><i id="faicon" class="fab fa-sass fa-2x"></i><i id="faicon" class="fab fa-react fa-2x"></i></p>
+                        <div class="button-container">
+                            <a href="https://www.emmsitges.cat/" target="_blank" class="cta">
+                                <span>Visita la web</span>
+                                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                    <path d="M1,5 L11,5"></path>
+                                    <polyline points="8 1 12 5 8 9"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="sitges">
+                    <div class="card-content">
+                        <h2 class="card-title">EMMMA</h2>
+                        <h3 class="card-subtitle"><a href="#">Escuela de Música</a></h3>
+                        <p class="card-body">Página de la Escuela Municipal de Música ubicada en Sitges, Barcelona.<br><i id="faicon" class="fab fa-wix fa-2x"></i></p>
+                        <div class="button-container">
+                            <a href="https://www.emmsitges.cat/" target="_blank" class="cta">
+                                <span>Visita la web</span>
+                                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                    <path d="M1,5 L11,5"></path>
+                                    <polyline points="8 1 12 5 8 9"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="luci">
+                    <div class="card-content">
+                        <h2 class="card-title">Lucía Lorenzo</h2>
+                        <h3 class="card-subtitle"><a href="#">Psicóloga</a></h3>
+                        <p class="card-body">Página profesional de la psicologa Lucía Lorenzo Vargas<br><i id="faicon" class="fab fa-html5 fa-2x"></i><i id="faicon" class="fab fa-css3-alt fa-2x"></i><i id="faicon" class="fab fa-js fa-2x"></i><i id="faicon" class="fab fa-sass fa-2x"></i></p>
+                        <div class="button-container">
+                            <a href="https://www.emmsitges.cat/" target="_blank" class="cta">
+                                <span>Visita la web</span>
+                                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                    <path d="M1,5 L11,5"></path>
+                                    <polyline points="8 1 12 5 8 9"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="aridane">
+                    <div class="card-content">
+                        <h2 class="card-title">Aridane Martín</h2>
+                        <h3 class="card-subtitle"><a href="#">Músico</a></h3>
+                        <p class="card-body">Página personal del músico Aridane Martín, contiene blog, proyectos y media.<br><i id="faicon" class="fab fa-wix fa-2x"></i></p>
+                        <div class="button-container">
+                            <a href="https://www.emmsitges.cat/" target="_blank" class="cta">
+                                <span>Visita la web</span>
+                                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                    <path d="M1,5 L11,5"></path>
+                                    <polyline points="8 1 12 5 8 9"></polyline>
+                                </svg>
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="card" id="nazia">
+                    <div class="card-content">
+                        <h2 class="card-title">Nazia Ramchandani</h2>
+                        <h3 class="card-subtitle"><a href="#">Psicóloga</a></h3>
+                        <p class="card-body">Página personal de la psicóloga especialista en pacientes oncológicos, Nazia Ramchandani.<br><i id="faicon" class="fab fa-html5 fa-2x"></i><i id="faicon" class="fab fa-css3-alt fa-2x"></i><i id="faicon" class="fab fa-js fa-2x"></i><i id="faicon" class="fab fa-sass fa-2x"></i></p>
+                        <div class="button-container">
+                            <a href="https://www.emmsitges.cat/" target="_blank" class="cta">
+                                <span>Visita la web</span>
+                                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                    <path d="M1,5 L11,5"></path>
+                                    <polyline points="8 1 12 5 8 9"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="separador js-scroll fade-in-bottom">
+            <h2>¿Por qué trabajar conmigo?</h2>
+            <p>No hay nada que disfrute más que diseñar y desarrollar proyectos que ayuden a la gente a crecer y a fomentar el desarrollo de sus actividades llegando a cada vez más gente.<br><br>Sigo día a día tratando de ser mejor desarrollador y esforzándome por conocer las últimas tendencias en desarrollo.<br><br>Si quieres desarrollar tu web no perdamos más tiempo y pongámonos manos a la obra.</p>
+        </div>
+
+        <!-- <h2 class="js-scroll fade-in-bottom" id="responsivetitle">Diseño Responsive</h2>   
+
+        <div class="js-scroll fade-in-bottom" id="responsive">     
+            
+            <ol id="responsivelist">
+                <li>Enfoque en el diseño UI/UX</li>
+                <li>Mejora en la experiencia de usuario</li>
+                <li>Accesibilidad desde cualquier dispositivo</li>
+            </ol>
+            <div id="laptop">
+                <img src="./assets/images/figmalaptop.jpg">
+            </div>
+            <div id="laptoptag">
+                <p>Desktop Version</p>
+            </div>
+            
+            <div id="mobile">
+                <img src="./assets/images/figmadraft.jpg">
+                
+            </div>
+            <div id="mobiletag">
+                <p>Mobile Version</p>
+            </div>
+        </div>
+
+        <div class="iceberg">
+            <img src="./assets/images/iceberg.png" alt="">
+        </div>
+
+        <div class="designtools">
+            <p>Herramientas de diseño que empleo habitualmente: </p>
+            <div class="designlogos">
+                <img class="designlogo" src="./assets/images/icons/figma.svg"/> 
+                <img class="designlogo" src="./assets/images/icons/photoshop.svg"/> 
+                <img class="designlogo" src="./assets/images/icons/illustrator.svg"/> 
+            </div>
+        </div>
+             -->
+        
+
+
+
+
+
+
+
+
+
+
+        
+    </div>
+    <!-- Container Ends -->
+
+    <div id="boxoverfooter">
+        <div id="text1">
+            <h2>CONTACTA CONMIGO</h2>
+            <p>
+            <i class="far fa-envelope fa-lg"></i>aridanemartin@gmail.com<br>
+            <i class="fas fa-phone"></i>695522590
+            </p>
+        </div>
+        <p id="text2">
+            <a href="https://github.com/aridanemartin" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/aridane-mart%C3%ADn-falc%C3%B3n-064b60144/" target="_blank""><i class="fab fa-linkedin-in fa-2x"></i></a>
+            <a href="https://www.instagram.com/iamaridane/" target="_blank""><i class="fab fa-instagram fa-2x"></i></a>
+        </p>
+
+    </div>
+
+
+
+    <div id="footercurve" style="overflow: hidden;">
+        <svg
+        preserveAspectRatio="none"
+        viewBox="0 0 1200 120"
+        xmlns="http://www.w3.org/2000/svg"
+        style="fill: rgb(76, 161, 175); width: 137%; height: 75px; transform: rotate(180deg) scaleX(-1);">
+        <path d="M321.39 56.44c58-10.79 114.16-30.13 172-41.86 82.39-16.72 168.19-17.73 250.45-.39C823.78 31 906.67 72 985.66 92.83c70.05 18.48 146.53 26.09 214.34 3V0H0v27.35a600.21 600.21 0 00321.39 29.09z" />
+        </svg>
+    </div>
+    <footer>
+        
+
+
+
+
+
+        <div id="footercontainer" class="contenedor">
+        </div>
+
+    </footer>
+
+
+
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/c8ae448e85.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./main.js"></script>
+
+    <!-- lotties -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.10/lottie.min.js" integrity="sha512-MgjcOY0sw/iCwhkTOODJmQ4aEhXJVq3JXeIbm+aFo99qYx2hCyjmqnD+9tZSVYTXvvko7I82jQOEDoecdGeIIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+</html>
