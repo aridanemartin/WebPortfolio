@@ -1,5 +1,3 @@
-// import "@lottiefiles/lottie-player";
-
 
 /* MENU */
 const nav = document.getElementById('nav');
@@ -29,46 +27,6 @@ function noScroll() {
     window.scrollTo(0, 0);
 }
 
-
-
-////////////////////////////////////////////////////////////////
-
-
-// hamburger = document.getElementById('toggle-menu')
-
-// const anim = bodymovin.loadAnimation({
-//   container: hamburger,
-//   renderer: "svg",
-//   loop: false,
-//   autoplay: false,
-//   path: "https://assets2.lottiefiles.com/packages/lf20_EI9YUZ.json"
-// });
-
-
-// hamburger.addEventListener('click', () =>{ 
-  
-//   hamburger = !hamburger;
-  
-//     if(hamburger) { 
-//      console.log('Second Click');  
-//      anim.setDirection(-1); // backwards                                 anim.setDirection(-1); //backwards
-//      anim.play(); 
-
-//     }else { 
-
-//     console.log('First click'); 
-//         anim.setDirection(1); // forward
-//         anim.play();
-
-//         nav.classList.add('showmenu');
-//         toggleMenu.classList.add('hidebtn');
-//         navClose.classList.add('showbtn');
-//     } 
-
-// });
-
-{/* <a href="https://www.aridanemartin.dev" target="_blank" >Aridane Martín</a>
-    <p>&lt;Web Developer/&gt;</p> */}
 
 
 // Efecto Scroll

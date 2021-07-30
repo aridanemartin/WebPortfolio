@@ -52,6 +52,7 @@ a {
   width: 90%;
   max-width: 800px;
   margin: auto;
+  margin-bottom: -100px;
 }
 
 .nav__header {
@@ -235,13 +236,13 @@ header p {
 }
 
 .separador {
-  margin: 0 0 2em 0;
+  margin: 3em 0 2em 0;
 }
 .separador h2 {
   font-size: 2em;
   font-weight: 400;
   color: #173136;
-  margin: 1em 0 1em 0;
+  margin: 0 0 1em 0;
   display: flex;
   text-align: center;
   justify-content: center;
