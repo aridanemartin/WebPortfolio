@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://infallible-torvalds-24835a.netlify.app/* https://www.aridanemartin.dev/:splat 301!
