@@ -61,7 +61,8 @@ a {
   width: 100%;
   background-color: #4ca1af;
 }
-.nav__header .header__toggle, .nav__header .nav__close {
+.nav__header .header__toggle,
+.nav__header .nav__close {
   cursor: pointer;
   display: block;
   position: absolute;
@@ -376,7 +377,8 @@ tamano del titulo */
     transition: transform 500ms ease;
   }
 
-  .card:hover .card-content, .card:focus-within .card-content {
+  .card:hover .card-content,
+.card:focus-within .card-content {
     transform: translateY(0);
     transition-delay: 500ms;
   }
@@ -406,10 +408,10 @@ tamano del titulo */
     transform: scaleX(0);
   }
 }
-#gatossinhogar {
-  background-image: url("../images/gatossinhogar3.webp");
-  background-position: -7rem -4rem;
-  background-size: 268%;
+#ratonesRoom {
+  background-image: url("../images/ratones.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 #tagorock {
@@ -594,7 +596,7 @@ tamano del titulo */
   position: relative;
   margin-bottom: 20px;
   padding: 1em;
-  border-left: 2px solid #CCCCCC;
+  border-left: 2px solid #cccccc;
   background-color: white;
 }
 
@@ -771,7 +773,9 @@ footer #footercontainer {
     transform: none;
   }
 
-  footer, #footercurve, #navcurve {
+  footer,
+#footercurve,
+#navcurve {
     margin-top: 0rem;
   }
 
@@ -780,7 +784,10 @@ footer #footercontainer {
   }
 }
 @media (max-width: 768px) {
-  .designtools, #responsive, #responsivetitle, #designtools {
+  .designtools,
+#responsive,
+#responsivetitle,
+#designtools {
     display: none;
   }
 
