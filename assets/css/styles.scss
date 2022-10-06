@@ -489,7 +489,7 @@ tamano del titulo */
 }
 
 #ratonesRoom {
-  background-image: url("../images/ratones.jpg");
+  background-image: url("../images/ratones.webp");
   background-position: center;
   background-size: cover;
 }
@@ -889,8 +889,8 @@ footer {
 
     #biotext {
       margin-bottom: 2rem;
-      display: flex;
-      justify-content: center;
+      display: block;
+      text-align: center;
       width: 100%;
       grid-area: "texto";
     }
